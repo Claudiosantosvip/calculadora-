@@ -1,0 +1,37 @@
+comandos utilizados - atividade linux
+======================================
+
+item 3 - criar o arquivo com editor de texto
+----------------------------------------------
+nano calculadora.sh
+
+item 4 - alterar as permissoes do arquivo
+------------------------------------------
+# tornar o arquivo executavel para o dono
+chmod u+x calculadora.sh
+
+# definir permissoes: dono com escrita, outros so leitura
+chmod 644 calculadora.sh
+
+# adicionar execucao para o dono
+chmod u+x calculadora.sh
+
+# verificar as permissoes aplicadas
+ls -la calculadora.sh
+
+item 5 - executar o script
+---------------------------
+./calculadora.sh
+
+======================================
+explicacao das permissoes (chmod 644):
+--------------------------------------
+- dono  (rw-) = leitura + escrita
+- grupo (r--) = somente leitura
+- outros(r--) = somente leitura
+
+apos chmod u+x:
+- dono  (rwx) = leitura + escrita + execucao
+- grupo (r--) = somente leitura
+- outros(r--) = somente leitura
+======================================
