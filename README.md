@@ -18,7 +18,7 @@ divisão por zero e validação de opção inválida.
 
 Clone o repositório:
 
-    git clone https://github.com/Chrisstiflermaster/calculadora-bash
+   git clone https://github.com/Claudiosantosvip/calculadora-
 
 Acesse a pasta:
 
